@@ -1,1 +1,4 @@
-<?php system('cat index.php'); ?>
+<?php 
+$yay = file_get_contents("index.php");
+echo $yay;
+ ?>
